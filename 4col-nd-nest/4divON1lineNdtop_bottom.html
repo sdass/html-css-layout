@@ -1,0 +1,233 @@
+<html>
+<head>
+</head>
+
+<style>
+
+
+body {
+    background-color: #b0c4de;
+}
+
+  .outer {
+    /* width: 960px; */
+     color: navy;
+     background-color: pink;
+     border: 2px solid darkblue;
+     padding: 5px;
+  }
+#content { background-color: yellow;}  
+  
+  #bottom,#top {
+	text-align: center;
+  }
+  #top{  
+	background-color: #aaa;
+  }
+  #bottom{  
+	background-color: #ddd;
+  }
+  
+  #content{
+	display: flex;
+  }
+
+  .left{
+	flex: 1;
+	background-color: lightgreen;
+	text-align: center;
+  }
+  
+  #in3{
+	display: flex;
+	background-color: burlywood;
+  }
+  .right{
+	flex: 1;
+	/* margin: 0 auto; */
+	text-align: center;
+  }
+  .mid-left{
+	background-color: beige;
+	flex: 1;
+	text-align: center;
+  }
+  .mid-right{
+	background-color: aqua;
+	flex: 1;
+	text-align: center;
+  }  
+</style>
+
+
+<body>
+
+<div id="outer" class="outer">
+
+<div id="top">
+	
+	<label for="favorite-animal">Top Favorite Animal</label><br>
+	<input name="favorite-animal" id="favorite-animal">
+</div>
+
+<div id="content">
+	<div class="left">
+		1. One <a href="#">If not there </a> 
+		<p>
+		Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also 
+		</p>
+		Select a Sire :<br>
+		<select >
+		  <option value="One">One</option>
+		  <option value="Middle">Middle</option>
+		  <option value="Awesome">Awesome</option>
+		  <option value="Desoerado">Desoerado</option>
+		  <option value="Winner">Winner</option>
+		  <option value="Shaet">Shaet Choice</option>
+		  <option value="Mugul">Mugul</option>
+		  <option value="Mulki">Mulki</option>
+		  <option value="Pharao">Pharao</option>
+		  <option value="American1">American1</option>
+		  <option value="Jongo">Jongo</option>
+		</select>
+		
+		<br>Select Car Brand:<br>
+		<select multiple=true size=8>
+		  <option value="volvo">Volvo</option>
+		  <option value="saab">Saab</option>
+		  <option value="opel">Opel</option>
+		  <option value="audi">Audi</option>
+		  <option value="audi">Tesla</option>
+		  <option value="audi">Toyota</option>
+		  <option value="audi">Maruthi</option>
+		  <option value="audi">Voxwagon</option>
+		  <option value="audi">GM</option>
+		  <option value="audi">Chrysler</option>
+		  <option value="audi">Mercedes</option>
+		</select>
+		
+		<br><label>Left pane ends</label><br>
+	</div>
+	<div id="mid1" class="mid-left">
+		<h2> Middle col-1</h2>
+		<!-- mmmmm111111  insert middle 2 div here  mmmmmmm11111-->	
+				Select horses :<br>
+		<select multiple = "true" size="4">
+		  <option value="One">One</option>
+		  <option value="Middle">Middle</option>
+		  <option value="Awesome">Awesome</option>
+		  <option value="Desoerado">Desoerado</option>
+		  <option value="Winner">Winner</option>
+		  <option value="Shaet">Shaet Choice</option>
+		  <option value="Mugul">Mugul</option>
+		  <option value="Mulki">Mulki</option>
+		  <option value="Pharao">Pharao</option>
+		  <option value="American1">American1</option>
+		  <option value="Jongo">Jongo</option>
+		</select>
+		
+		<div id="in3">
+		<div>
+		<br>Select   Tracks:<br>
+		<select multiple=true size=8>
+		  <option value="volvo">Volvo</option>
+		  <option value="saab">Saab</option>
+		  <option value="opel">Opel</option>
+		  <option value="audi">Audi</option>
+		  <option value="audi">Tesla</option>
+		  <option value="audi">Toyota</option>
+		  <option value="audi">Maruthi</option>
+		  <option value="audi">Voxwagon</option>
+		  <option value="audi">GM</option>
+		  <option value="audi">Chrysler</option>
+		  <option value="audi">Mercedes</option>
+		</select>
+		</div>
+		<br><input type="button" style="background-color:skyblue; cursor:pointer; height:3em; margin: auto;" value="Fill Tracks"></input>
+		<div>
+		<br>Select   races:<br>
+		<select multiple=true size=8>
+		  <option value="race-1">race-1</option>
+		  <option value="race-2">race-2</option>
+		  <option value="race-3">race-3</option>
+		  <option value="race-4">race-4</option>
+		  <option value="race-5">race-5</option>
+		  <option value="race-6">race-6</option>
+		  <option value="race-7">race-7</option>
+		  <option value="race-8">race-8</option>
+		</select>
+		</div>
+	</div>
+	<div>
+	<!-- stack at the bottom -->
+	<label> show status after clicking button</label>
+	</div>
+	</div>
+	
+	<div id="mid2" class="mid-right">
+		<h2> Middle col-2</h2>
+		<!-- mmmmm111111  insert middle 2 div here  mmmmmmm11111-->
+		<br>Select   race Type:<br>
+		<select multiple=true size=4>
+		  <option value="graded">graded</option>
+		  <option value="race-2">1..100</option>
+		  <option value="race-3">1..150</option>
+		  <option value="race-4">1..200</option>
+		  <option value="race-5">1..300</option>
+		</select>
+		
+	</div>
+	
+	<div class="right">
+		2. Two less text <a href="#">If not there </a>
+		form field. But this isn't a good idea. Having a paired label is more
+
+		Select a color :<br>
+  <select multiple="true" size="5">
+    <option value="0">violate</option>
+    <option value="1">blue</option>
+    <option value="2">pink</option>
+    <option value="3">red</option>
+    <option value="4">skyblue</option>
+    <option value="5">yellow</option>
+    <option value="6">green</option>
+    <option value="7">gray</option>
+    <option value="8">magenta</option>
+    <option value="9">cyan</option>
+    <option value="10">vermillion</option>
+    <option value="11">white</option>
+    <option value="12">black</option>
+  </select>
+		
+		<br>Select Hobby:<br>
+		<select multiple=true size=8>
+		  <option value="read">read</option>
+		  <option value="exercise">exercise</option>
+		  <option value="walk">walk</option>
+		  <option value="sleep">sleep</option>
+		  <option value="singing">singing</option>
+		  <option value="swim">swim</option>
+		  <option value="travel">travel</option>
+		  <option value="eat">eat</option>
+		  <option value="debate">debate</option>
+		  <option value="think">think</option>
+		  <option value="observe">observe</option>
+		</select>
+		
+		<br><label>Right pane ends</label><br>
+	</div>		
+		
+	</div>
+</div>
+
+<div id="bottom">
+	<label for="favorite-hobby">Bottom Hobby</label><br>
+	<input name="favorite-hobby" id="favorite-hobby">
+</div>
+
+
+
+</body>
+
+
+</html>

@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.106
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAppSimTab", "WebAppSimTab\WebAppSimTab.csproj", "{6C9DC759-9E56-49F3-8485-1802CD93579B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{4118B3D2-6CF4-46FD-B218-9371E61C27D1}"
+	ProjectSection(SolutionItems) = preProject
+		readme.txt = readme.txt
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6C9DC759-9E56-49F3-8485-1802CD93579B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C9DC759-9E56-49F3-8485-1802CD93579B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C9DC759-9E56-49F3-8485-1802CD93579B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C9DC759-9E56-49F3-8485-1802CD93579B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {33A32686-9B08-4D9A-A77A-03E4CFBA875C}
+	EndGlobalSection
+EndGlobal
